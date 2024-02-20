@@ -46,9 +46,10 @@ Official implementation: [nerf](https://github.com/bmild/nerf) .. Reference pyto
 
 ## Software
 
-* Clone this repo by `git clone --recursive https://github.com/kwea123/nerf_pl`
-* Python>=3.6 (installation via [anaconda](https://www.anaconda.com/distribution/) is recommended, use `conda create -n nerf_pl python=3.6` to create a conda environment and activate it by `conda activate nerf_pl`)
+* Clone this repo by `git clone --recursive https://github.com/Mcskiller/nerf_pl`
+* Python>=3.6 (installation via [anaconda](https://www.anaconda.com/distribution/) is recommended, use `conda create -n nerf_pl python=3.9` to create a conda environment and activate it by `conda activate nerf_pl`)
 * Python libraries
+    * **Be sure that torch's cuda version should be the same as your GPU's NVCC version**(the default cuda version is 11.8 in the `requirement.txt`).
     * Install core requirements by `pip install -r requirements.txt`
     * Install `torchsearchsorted` by `cd torchsearchsorted` then `pip install .`
     

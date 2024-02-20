@@ -1,11 +1,12 @@
-torch==1.4.0
-torchvision==0.5.0
-pytorch-lightning==0.7.5
+torch==2.2.0+cu118
+torchvision==0.17.0+cu118
+lightning==2.2.0
 test-tube
-kornia==0.2.0
-opencv-python==4.2.0.34
+kornia==0.6.10
+opencv-python==4.9.0.80
 matplotlib
 jupyter
+rich
 
 # for mesh
 PyMCubes
@@ -16,3 +17,5 @@ pyglet
 # for point cloud
 plyfile
 open3d
+
+--find-links https://download.pytorch.org/whl/torch_stable.html
